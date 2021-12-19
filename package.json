@@ -2,6 +2,9 @@
   "name": "advantour",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node" : "14.17.5"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -44,6 +47,6 @@
   },
   "devDependencies": {
     "sass": "^1.45.0"
-  },
-  "engines": { "node" : "14.17.5" }
+  }
+
 }
