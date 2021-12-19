@@ -1,0 +1,43 @@
+@media (max-width: 500px) {
+
+  .container{
+    padding: 0 20px;
+  }
+
+  .header__half:first-child{
+    width: 100%;
+  }
+  .header__half:nth-child(2){
+    width: 100%;
+  }
+
+  .header__header-divs{
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header__title{
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  .description__img{
+    margin: auto;
+  }
+
+  .header__nav{
+    width: 100%;
+  }
+
+  .programs__2parts{
+    flex-direction: column;
+  }
+
+  .program{
+    width: 100%;
+  }
+
+  .li{
+    font-size: 12px;
+  }
+
+}

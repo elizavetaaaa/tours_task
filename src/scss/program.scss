@@ -1,0 +1,53 @@
+.program{
+  width: 600px;
+ padding:  10px;
+  display: flex;
+
+  flex-direction: column;
+  margin-bottom: 30px;
+  border-bottom: 0.5px solid #00000030;
+  border-radius: 10px;
+  cursor: pointer;
+  //box-shadow: rgba(149, 157, 165, 0.2) 0px 2px 2px;
+  &__title{
+    font-size: 20px;
+    //color: #0088f6;
+    margin-bottom: 0 !important;
+  }
+
+  &__visible-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    cursor: pointer;
+
+  }
+
+
+
+  &__hidden-content{
+    padding: 10px;
+    transition-delay: 2s;
+    text-align: left;
+    row-gap: 10px;
+  }
+
+  &__hidden-text{
+    text-align: left;
+  }
+
+  &__btn{
+    border: none;
+    background: transparent;
+    cursor: pointer;
+
+  }
+}
+p{
+  margin-bottom: 10px;
+}
+
+.program:hover{
+  background-color: #87cefa20;
+}

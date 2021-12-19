@@ -1,0 +1,43 @@
+.description{
+
+
+  &__main-content{
+    display: flex;
+    column-gap: 30px;
+  }
+
+  &__extra-content{
+    margin: 20px 0;
+  }
+  &__img{
+    width: 380px;
+    height: 220px;
+
+  }
+
+  &__text-div{
+    text-align: left;
+  }
+  &__main-text{
+    text-align: left;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  &__btn{
+    border: none;
+    background-color: transparent;
+    color: lightskyblue;
+    font-size: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 1s;
+    display: inline;
+
+  }
+
+  &__btn:hover{
+    color: #1f98f4 ;
+  }
+}
